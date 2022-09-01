@@ -1,0 +1,176 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://spidertraits.sci.muni.cz/backend/data/export/csv/family/*/genus/*/species/*/original-name/*/trait-category/*/trait/16/method/*/location/*/country/*/dataset/*/authors/*/reference/*/row-link/*",
+    "dcterms:bibliographicCitation" : "Pekár S. et al. 2021. The World Spider Trait database: a centralised global open repository for curated data on spider traits. Database 2021: baab064.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "id",
+        "titles" : "id",
+        "datatype" : "string"
+      }, {
+        "name" : "wsc_lsid",
+        "titles" : "wsc_lsid",
+        "datatype" : "string"
+      }, {
+        "name" : "originalName",
+        "titles" : "originalName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithet",
+        "titles" : "species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubspecificEpithet",
+        "titles" : "subspecies",
+        "datatype" : "string"
+      }, {
+        "name" : "trait",
+        "titles" : "trait",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "traitFullName",
+        "datatype" : "string"
+      }, {
+        "name" : "traitCategory",
+        "titles" : "traitCategory",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "value",
+        "datatype" : "string"
+      }, {
+        "name" : "value_numeric",
+        "titles" : "value_numeric",
+        "datatype" : "string"
+      }, {
+        "name" : "measure",
+        "titles" : "measure",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "sex",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "lifeStage",
+        "datatype" : "string"
+      }, {
+        "name" : "frequency",
+        "titles" : "frequency",
+        "datatype" : "string"
+      }, {
+        "name" : "sampleSize",
+        "titles" : "sampleSize",
+        "datatype" : "string"
+      }, {
+        "name" : "treatment",
+        "titles" : "treatment",
+        "datatype" : "string"
+      }, {
+        "name" : "method",
+        "titles" : "method",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecord",
+        "titles" : "methodFullName",
+        "datatype" : "string"
+      }, {
+        "name" : "dateText",
+        "titles" : "dateText",
+        "datatype" : "string"
+      }, {
+        "name" : "dateStart",
+        "titles" : "dateStart",
+        "datatype" : "string"
+      }, {
+        "name" : "dateEnd",
+        "titles" : "dateEnd",
+        "datatype" : "string"
+      }, {
+        "name" : "note",
+        "titles" : "note",
+        "datatype" : "string"
+      }, {
+        "name" : "location",
+        "titles" : "location",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "decimalLatitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "decimalLongitude",
+        "datatype" : "string"
+      }, {
+        "name" : "altitude",
+        "titles" : "altitude",
+        "datatype" : "string"
+      }, {
+        "name" : "verbatimLocality",
+        "titles" : "verbatimLocality",
+        "datatype" : "string"
+      }, {
+        "name" : "countryCode",
+        "titles" : "countryCode",
+        "datatype" : "string"
+      }, {
+        "name" : "countryName",
+        "titles" : "countryName",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "habitatVerbatim",
+        "datatype" : "string"
+      }, {
+        "name" : "microhabitatVerbatim",
+        "titles" : "microhabitatVerbatim",
+        "datatype" : "string"
+      }, {
+        "name" : "datasetName",
+        "titles" : "datasetName",
+        "datatype" : "string"
+      }, {
+        "name" : "datasetRestrictedAccess",
+        "titles" : "datasetRestrictedAccess",
+        "datatype" : "string"
+      }, {
+        "name" : "reference",
+        "titles" : "reference",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceFull",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDOI",
+        "titles" : "referenceDOI",
+        "datatype" : "string"
+      }, {
+        "name" : "rowLinks",
+        "titles" : "rowLinks",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
